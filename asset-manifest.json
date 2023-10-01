@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/voidTravels/static/css/main.69303d2f.css",
-    "main.js": "/voidTravels/static/js/main.0dcd0ca3.js",
-    "index.html": "/voidTravels/index.html",
-    "main.69303d2f.css.map": "/voidTravels/static/css/main.69303d2f.css.map",
-    "main.0dcd0ca3.js.map": "/voidTravels/static/js/main.0dcd0ca3.js.map"
+    "main.css": "/voidTravels/client/static/css/main.69303d2f.css",
+    "main.js": "/voidTravels/client/static/js/main.0dcd0ca3.js",
+    "index.html": "/voidTravels/client/index.html",
+    "main.69303d2f.css.map": "/voidTravels/client/static/css/main.69303d2f.css.map",
+    "main.0dcd0ca3.js.map": "/voidTravels/client/static/js/main.0dcd0ca3.js.map"
   },
   "entrypoints": [
     "static/css/main.69303d2f.css",
