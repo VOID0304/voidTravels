@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/voidTravels/static/css/main.69303d2f.css",
-    "main.js": "/voidTravels/static/js/main.0dcd0ca3.js",
+    "main.js": "/voidTravels/static/js/main.dc0277e6.js",
     "index.html": "/voidTravels/index.html",
     "main.69303d2f.css.map": "/voidTravels/static/css/main.69303d2f.css.map",
-    "main.0dcd0ca3.js.map": "/voidTravels/static/js/main.0dcd0ca3.js.map"
+    "main.dc0277e6.js.map": "/voidTravels/static/js/main.dc0277e6.js.map"
   },
   "entrypoints": [
     "static/css/main.69303d2f.css",
-    "static/js/main.0dcd0ca3.js"
+    "static/js/main.dc0277e6.js"
   ]
 }
