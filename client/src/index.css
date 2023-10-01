@@ -1,0 +1,7 @@
+:root{
+    --pink: #123658
+}
+
+.state{
+    color: var(--pink);
+}
