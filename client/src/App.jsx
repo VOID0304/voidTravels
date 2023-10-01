@@ -9,9 +9,9 @@ const App=()=> {
   return (
     <>
       <Routes>
-        <Route path="/" Component={HomePage}/>
+        <Route path="/voidTravels" Component={HomePage}/>
         <Route path="/login" Component={SignIn}/>
-        <Route path="*" element={<Navigate replace to={"/"}/>} />
+        <Route path="*" element={<Navigate replace to={"/voidTravels"}/>} />
         <Route path="/stateTourism" Component={StateTourism}/>
       </Routes>
       <h4>{StringConstants.description_routes}</h4>
