@@ -1,6 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
 :root{
+
+    /* colors */
+    --black: #000000;
+    --white: #ffffff;
     --pink: #EAC7C7;
-    --blue: #132421;
+    --blue: #A0C3D2;
+    --link-blue: #3E468F;
+    --red: #FF0000;
+    --verfied-green: #2AA100;
+
+    /* fonts */
+    --fontFamily-ubuntu: 'Ubuntu', sans-serif;
+
+    /* typography */
+    --weight-light:300;
+    --weight-regular:400;
+    --weight-normal:500;
+    --weight-bold:700;
+
+    /* border radius */
+    --radius-8:8px;
+    --radius-12:12px;
+    --radius-16:16px;
+    --radius-24:24px;
+    --radius-32:32px;
+    --radius-circle:50%;
+
+    /* shadow */
+    --shadow-1: 0px 0px 25px 0px hsla(0, 0%, 0%, 0.25);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fontFamily-ubuntu);
 }
 
 .state{
@@ -21,3 +56,16 @@
     display: flex;
 }
 
+
+
+
+
+@media (min-width: 576px) { }
+  
+@media (min-width: 768px) { }
+  
+@media (min-width: 992px) { }
+  
+@media (min-width: 1200px) { }
+  
+@media (min-width: 1400px) { }
