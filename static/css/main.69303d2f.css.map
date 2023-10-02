@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.69303d2f.css","mappings":"AAAA,MACI,cACJ,CAEA,OACI,aAAkB,CAAlB,iBACJ","sources":["index.css"],"sourcesContent":[":root{\r\n    --pink: #123658\r\n}\r\n\r\n.state{\r\n    color: var(--pink);\r\n}"],"names":[],"sourceRoot":""}
