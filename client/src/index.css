@@ -1,7 +1,23 @@
 :root{
-    --pink: #123658
+    --pink: #EAC7C7;
+    --blue: #132421;
 }
 
 .state{
     color: var(--pink);
 }
+
+.heading{
+    background: linear-gradient(90deg, rgba(243, 164, 155, 0.85) 0.67%, rgba(128, 138, 225, 0.81) 99.96%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.filter{
+    background: linear-gradient(90deg, rgba(243, 164, 155, 0.85) 0.67%, rgba(128, 138, 225, 0.81) 99.96%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
