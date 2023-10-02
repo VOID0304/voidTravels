@@ -4,6 +4,8 @@ import SignIn from "./screens/login/signIn";
 import HomePage from "./screens/homepage/home";
 import StringConstants from "./constants/string_constants";
 import StateTourism from "./screens/StateTourism/stateTourism";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 
 const App=()=> {
   return (
