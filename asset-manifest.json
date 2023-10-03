@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/voidTravels/static/css/main.8b2fc3ac.css",
-    "main.js": "/voidTravels/static/js/main.0d6142b8.js",
-    "static/media/allepy.png": "/voidTravels/static/media/allepy.4687807b7c4b199633f5.png",
+    "main.css": "/voidTravels/static/css/main.3a6cb8ec.css",
+    "main.js": "/voidTravels/static/js/main.bcba6b4a.js",
+    "static/media/chikmagalur.png": "/voidTravels/static/media/chikmagalur.4c435838e62ae26b9817.png",
+    "static/media/coorg.png": "/voidTravels/static/media/coorg.e0e2d6231b2df2982e02.png",
+    "static/media/hampi.png": "/voidTravels/static/media/hampi.edbbf28593bf0c6e882d.png",
+    "static/media/mysore.png": "/voidTravels/static/media/mysore.15fd578eedb1f0b400ff.png",
+    "static/media/bangalore.png": "/voidTravels/static/media/bangalore.500c171b664152cf81c8.png",
+    "static/media/jogfalls.png": "/voidTravels/static/media/jogfalls.e14bacf7d8bb2cdf6b0a.png",
+    "static/media/murudeswar.png": "/voidTravels/static/media/murudeswar.a7e2adf0ea78c099d569.png",
+    "static/media/mangalore.png": "/voidTravels/static/media/mangalore.cc26895a8e47cff96691.png",
+    "static/media/udupi.png": "/voidTravels/static/media/udupi.400fc60b648f86858087.png",
+    "static/media/nandihills.png": "/voidTravels/static/media/nandihills.19f5143b1d8d6f9006fa.png",
     "index.html": "/voidTravels/index.html",
-    "main.8b2fc3ac.css.map": "/voidTravels/static/css/main.8b2fc3ac.css.map",
-    "main.0d6142b8.js.map": "/voidTravels/static/js/main.0d6142b8.js.map"
+    "main.3a6cb8ec.css.map": "/voidTravels/static/css/main.3a6cb8ec.css.map",
+    "main.bcba6b4a.js.map": "/voidTravels/static/js/main.bcba6b4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b2fc3ac.css",
-    "static/js/main.0d6142b8.js"
+    "static/css/main.3a6cb8ec.css",
+    "static/js/main.bcba6b4a.js"
   ]
 }
