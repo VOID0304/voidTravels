@@ -16,9 +16,17 @@ const App=()=> {
         <Route path="*" element={<Navigate replace to={"/"}/>} />
         <Route path="/stateTourism" Component={StateTourism}/>
       </Routes>
-      <h4>{StringConstants.description_routes}</h4>
+      {/* <h4>{StringConstants.description_routes}</h4> */}
     </>
   );
 }
+
+
+// function App(){
+//   return(
+
+//   );
+// }
+
 
 export default App;

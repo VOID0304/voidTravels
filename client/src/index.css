@@ -42,6 +42,22 @@
     color: var(--pink);
 }
 
+.heading{
+    background: linear-gradient(90deg, rgba(243, 164, 155, 0.85) 0.67%, rgba(128, 138, 225, 0.81) 99.96%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.filter{
+    background: linear-gradient(90deg, rgba(243, 164, 155, 0.85) 0.67%, rgba(128, 138, 225, 0.81) 99.96%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
 
 
 @media (min-width: 576px) { }
