@@ -10,6 +10,7 @@
     --link-blue: #3E468F;
     --red: #FF0000;
     --verfied-green: #2AA100;
+    --lineargradient: linear-gradient(90deg, rgba(243, 164, 155, 0.85) 0.67%, rgba(128, 138, 225, 0.81) 99.96%);
 
     /* fonts */
     --fontFamily-ubuntu: 'Ubuntu', sans-serif;
@@ -43,7 +44,7 @@
 }
 
 .heading{
-    background: linear-gradient(90deg, rgba(243, 164, 155, 0.85) 0.67%, rgba(128, 138, 225, 0.81) 99.96%);
+    background: var(--lineargradient);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -58,7 +59,7 @@
 
 
 
-
+@media (max-width: 576px) { }
 
 @media (min-width: 576px) { }
   
