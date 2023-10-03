@@ -6,6 +6,7 @@ import StringConstants from "./constants/string_constants";
 import StateTourism from "./screens/StateTourism/stateTourism";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
+import Flights from "./screens/appbar options/flights";
 
 const App=()=> {
   return (
@@ -15,6 +16,7 @@ const App=()=> {
         <Route path="/login" Component={SignIn}/>
         <Route path="*" element={<Navigate replace to={"/"}/>} />
         <Route path="/stateTourism" Component={StateTourism}/>
+        <Route path="/flights" Component={Flights}/>
       </Routes>
       {/* <h4>{StringConstants.description_routes}</h4> */}
     </>
