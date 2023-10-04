@@ -5,8 +5,7 @@ class StringConstants{
     static description_routes = " on entering 'localhost:3000' u will get homepage and on entering 'localhost:3000/login' u will get loginpage in this way assign route for your screens and then work accordingly";
     static stateHeading = "KARNATAKA";
     static stateFilters = "Select Filters";
-    static count =10;
-    
+   
 }
 
 

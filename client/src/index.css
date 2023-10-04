@@ -77,7 +77,16 @@
 }
 
 
-@media (max-width: 576px) { }
+
+
+
+
+
+@media (max-width: 576px) { 
+    .cards{
+        display:block !important;
+    }
+}
 
 @media (min-width: 576px) { }
   

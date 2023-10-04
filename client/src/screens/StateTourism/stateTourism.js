@@ -28,7 +28,7 @@ const StateTourism=()=>{
                         <h3>{StringConstants.stateHeading}</h3>
                     </div>
                     <div>
-                        <p className="fs-5"><b>Here are top 10 places to visit</b></p>
+                        <p className="fs-5 mt-3"><b>Here are top 10 places to visit</b></p>
                     </div>
                 {
                     StaticData.StateListdata.map((val, index)=><StateCard title={val.title} img={val.img} description={val.description} stars={val.stars} besttime={val.besttime} tourist={val.tourist}/>)
