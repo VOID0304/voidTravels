@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/voidTravels/static/css/main.beb4feba.css",
-    "main.js": "/voidTravels/static/js/main.534e8842.js",
+    "main.css": "/voidTravels/static/css/main.7e64f9e8.css",
+    "main.js": "/voidTravels/static/js/main.8a696ae2.js",
     "static/media/vrindavan.png": "/voidTravels/static/media/vrindavan.5f7b025d3c7ea3aebad4.png",
+    "static/media/islands.png": "/voidTravels/static/media/islands.a3ad08ecb1e135a242d3.png",
+    "static/media/leh.png": "/voidTravels/static/media/leh.5cae3ed68e298bff0bb1.png",
     "static/media/image2.png": "/voidTravels/static/media/image2.48b22bd5b38b62a3162d.png",
+    "static/media/allindia.png": "/voidTravels/static/media/allindia.305055dffe8319d7d167.png",
     "static/media/image1.png": "/voidTravels/static/media/image1.bf48cfb83690188d6c04.png",
     "static/media/image3.png": "/voidTravels/static/media/image3.67ac8f700e0ec66c46fe.png",
+    "static/media/honeymoon.png": "/voidTravels/static/media/honeymoon.8b2f18f950ab0dc2574a.png",
     "static/media/chikmagalur.png": "/voidTravels/static/media/chikmagalur.4c435838e62ae26b9817.png",
     "static/media/coorg.png": "/voidTravels/static/media/coorg.e0e2d6231b2df2982e02.png",
     "static/media/hampi.png": "/voidTravels/static/media/hampi.edbbf28593bf0c6e882d.png",
@@ -17,11 +21,11 @@
     "static/media/udupi.png": "/voidTravels/static/media/udupi.400fc60b648f86858087.png",
     "static/media/nandihills.png": "/voidTravels/static/media/nandihills.19f5143b1d8d6f9006fa.png",
     "index.html": "/voidTravels/index.html",
-    "main.beb4feba.css.map": "/voidTravels/static/css/main.beb4feba.css.map",
-    "main.534e8842.js.map": "/voidTravels/static/js/main.534e8842.js.map"
+    "main.7e64f9e8.css.map": "/voidTravels/static/css/main.7e64f9e8.css.map",
+    "main.8a696ae2.js.map": "/voidTravels/static/js/main.8a696ae2.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb4feba.css",
-    "static/js/main.534e8842.js"
+    "static/css/main.7e64f9e8.css",
+    "static/js/main.8a696ae2.js"
   ]
 }
