@@ -9,7 +9,6 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import Flights from "./screens/appbar options/flights";
 import SpecialPackages from "./screens/SpecialPackages/specialPackages";
 import MakemyPlan from "./screens/MakeMyPlan/makeMyPlan";
-import FanTopDestination from "./screens/fantopdestination/Fantopdestinations";
 const App=()=> {
   return (
     <>
@@ -21,7 +20,6 @@ const App=()=> {
         <Route path="/flights" Component={Flights}/>
         <Route path="/specialPackages" Component={SpecialPackages}/>
         <Route path="/makemyplan" Component={MakemyPlan}/>
-        <Route path="/fantopdestinations" Component={FanTopDestination}/>
 
       </Routes>
       {/* <h4>{StringConstants.description_routes}</h4> */}
