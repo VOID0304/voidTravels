@@ -7,7 +7,7 @@ import StateTourism from "./screens/StateTourism/stateTourism";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import Flights from "./screens/appbar options/flights";
-
+import FanTopDestination from "./screens/fantopdestination/Fantopdestinations";
 const App=()=> {
   return (
     <>
@@ -17,6 +17,8 @@ const App=()=> {
         <Route path="*" element={<Navigate replace to={"/"}/>} />
         <Route path="/stateTourism" Component={StateTourism}/>
         <Route path="/flights" Component={Flights}/>
+        <Route path="/fantopdestinations" Component={FanTopDestination}/>
+
       </Routes>
       {/* <h4>{StringConstants.description_routes}</h4> */}
     </>
