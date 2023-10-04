@@ -24,7 +24,6 @@ const App=()=> {
         <Route path="/flights" Component={Flights}/>
         <Route path="/specialPackages" Component={SpecialPackages}/>
         <Route path="/makemyplan" Component={MakemyPlan}/>
-        <Route path="/fantopdestinations" Component={FanTopDestination}/>
         <Route path="/icon" Component={IconList}/>
       </Routes>
       {/* <h4>{StringConstants.description_routes}</h4> */}
