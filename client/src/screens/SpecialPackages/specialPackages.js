@@ -8,13 +8,9 @@ import StringConstants from "../../constants/string_constants";
 import image1 from "../../assets/images/image1.png";
 import image2 from "../../assets/images/image2.png";
 import image3 from "../../assets/images/image3.png";
-import vrindavan from "../../assets/images/vrindavan.png";
-import { NavLink } from "react-router-dom";
-import { FaHotel } from "react-icons/fa";
-import IconList from "./components/icons";
 import CardComponent from "./components/cardComponent";
 import StaticData from "../../constants/static_data";
-
+import {FaGlobeAsia} from "react-icons/fa";
 
 const SpecialPackages =()=>{
     return (
@@ -26,11 +22,11 @@ const SpecialPackages =()=>{
             <div className="col-4 p-0"><img src={image3} alt="hello" ></img></div>
         </div>
         <div className="line p-3 my-4">
-            <h2 className="mb-5">Exciting Special packages</h2><span></span>
+            <h2 className="mb-5" ><FaGlobeAsia/>  Exciting Special packages</h2><span></span>
             <div className="row d-flex">
                 
                 {
-                    StaticData.packageList.map((index, val)=><CardComponent />)
+                    StaticData.packageList.map((val,index)=><CardComponent heading={val.heading} subheading={val.subheading} img={val.img} price={val.price} l1={val.l1} l2={val.l2} l3={val.l3} l4={val.l4} />)
                 }
             </div>
         </div>

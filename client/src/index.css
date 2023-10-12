@@ -58,7 +58,7 @@
 }
 .allepyimg{
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
     height: 191px;
     width: 200px;
 }
@@ -77,7 +77,7 @@
 }
 
 .line{
-    height: 2300px;
+    height: 2650px;
     border: 1px solid black;
     border-radius: var(--radius-8);
 }

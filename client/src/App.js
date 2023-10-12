@@ -9,7 +9,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import Flights from "./screens/appbar options/flights";
 import SpecialPackages from "./screens/SpecialPackages/specialPackages";
 import MakemyPlan from "./screens/MakeMyPlan/makeMyPlan";
-import FanTopDestination from "./screens/fantopdestination/Fantopdestinations";
+
 import IconList from "./screens/SpecialPackages/components/icons";
 
 

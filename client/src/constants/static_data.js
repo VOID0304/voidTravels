@@ -1,14 +1,18 @@
 import hampi from "../assets/images/hampi.png";
-import coorg from "../assets/images/coorg.png"
-import mysore from "../assets/images/mysore.png"
-import udupi from "../assets/images/udupi.png"
-import chikmagalur from "../assets/images/chikmagalur.png"
-import jogfalls from "../assets/images/jogfalls.png"
-import murudeswar from "../assets/images/murudeswar.png"
-import banglore from "../assets/images/bangalore.png"
-import nandihills from "../assets/images/nandihills.png"
-import mangalore from "../assets/images/mangalore.png"
-
+import coorg from "../assets/images/coorg.png";
+import mysore from "../assets/images/mysore.png";
+import udupi from "../assets/images/udupi.png";
+import chikmagalur from "../assets/images/chikmagalur.png";
+import jogfalls from "../assets/images/jogfalls.png";
+import murudeswar from "../assets/images/murudeswar.png";
+import banglore from "../assets/images/bangalore.png";
+import nandihills from "../assets/images/nandihills.png";
+import mangalore from "../assets/images/mangalore.png";
+import vrindavan from "../assets/images/vrindavan.png";
+import allindia from "../assets/images/allindia.png";
+import leh from "../assets/images/leh.png";
+import islands from "../assets/images/islands.png";
+import honeymoon from "../assets/images/honeymoon.png";
 
 class StaticData{
     static StateListdata=[
@@ -104,7 +108,61 @@ class StaticData{
     ];
 
 
-    static packageList=[1,2,3,4,5];
+    static packageList=[
+        {
+            heading: 'NORTH INDIA TOUR',
+            subheading:'Starting from: Vrindavan',
+            price: '₹ 15,000',
+            img: vrindavan,
+            l1: 'Tughlqabad',
+            l2: 'Agra',
+            l3: 'Vrindavan',
+            l4: 'Mathura',
+
+        },
+        {
+            heading: 'ALL INDIA TOUR',
+            subheading:'Starting from: Chennai',
+            img: allindia,
+            price: '₹ 19,000',
+            l1: 'Arunachalam',
+            l2: 'Thiruvananthapuram',
+            l3: 'Kolhapur Mahalakshmi',
+            l4: 'Kamakhya Devi temple',
+        },
+        {
+            heading: 'LEH LADAKH TOUR',
+            subheading:'Starting from: Delhi',
+            price: '₹ 19,999',
+            img: leh,
+            l1: 'Leh',
+            l2: 'Sham valley',
+            l3: 'kardhungla',
+            l4: 'Nubra valley',
+            l5: 'pangong',
+            l6: 'Stock Village',
+        },
+        {
+            heading: 'ANDAMAN & NICOBAR ISLANDS',
+            subheading:'Starting from: Chennai',
+            price: '₹ 20,000',
+            img: islands,
+            l1: 'Port Blair',
+            l2: 'Havelock',
+            l3: 'Neil island',
+        },
+        {
+            heading: 'HONEYMOON PACKAGE',
+            subheading:'Starting from: Delhi',
+            price: '₹ 8000',
+            img: honeymoon,
+            l1: 'Manali',
+            l2: 'Solang',
+            l3: 'Naggar + jana waterfall',
+            l4: 'kullu - manikaran',
+
+        }
+    ];
 }
 
 export default StaticData;

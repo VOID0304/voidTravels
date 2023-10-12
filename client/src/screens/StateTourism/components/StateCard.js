@@ -11,7 +11,7 @@ const StateCard = (props) => {
     return (
         <div className="mb-5 custom-cursor">
             <Card className="cards" style={{ width: '58rem', height: '15rem', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <Card.Img className="allepyimg" variant="top" src={props.img} style={{ flex: '0 0 auto', width: '200px', height: 'auto', marginRight: '20px' }} />
+                <Card.Img className="allepyimg" variant="top" src={props.img} style={{ flex: '0 0 auto', width: '200px', height: 'auto', marginRight: '20px'}} />
                 <div style={{ flex: '1' }}>
                     <Card.Body>
                         <Card.Title className="fs-3">{props.title}</Card.Title>
