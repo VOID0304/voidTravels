@@ -8,6 +8,9 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import SpecialPackages from "./screens/SpecialPackages/specialPackages";
 import MakemyPlan from "./screens/MakeMyPlan/makeMyPlan";
 
+import IconList from "./screens/SpecialPackages/components/icons";
+
+
 const App=()=> {
   return (
     <>
