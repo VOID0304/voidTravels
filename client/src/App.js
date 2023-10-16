@@ -3,6 +3,8 @@ import {Route, Routes, Navigate} from "react-router-dom";
 import SignIn from "./screens/login/signIn";
 import HomePage from "./screens/homepage/home";
 import StateTourism from "./screens/StateTourism/stateTourism";
+import SignUp from "./screens/login/signup";
+import ForgotPwd from "./screens/login/forgotpass";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import SpecialPackages from "./screens/SpecialPackages/specialPackages";
@@ -21,6 +23,8 @@ const App=()=> {
         <Route path="/stateTourism" Component={StateTourism}/>
         <Route path="/specialPackages" Component={SpecialPackages}/>
         <Route path="/makemyplan" Component={MakemyPlan}/>
+        <Route path="/signup" Component={SignUp}/>
+        <Route path="/forgotpassword" Component={ForgotPwd}/>
       </Routes>
     </>
   );
