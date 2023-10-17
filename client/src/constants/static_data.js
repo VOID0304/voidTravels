@@ -118,6 +118,7 @@ class StaticData{
             l2: 'Agra',
             l3: 'Vrindavan',
             l4: 'Mathura',
+            train: 'train',
 
         },
         {
@@ -129,6 +130,7 @@ class StaticData{
             l2: 'Thiruvananthapuram',
             l3: 'Kolhapur Mahalakshmi',
             l4: 'Kamakhya Devi temple',
+            train: 'train and bus',
         },
         {
             heading: 'LEH LADAKH TOUR',
@@ -141,6 +143,7 @@ class StaticData{
             l4: 'Nubra valley',
             l5: 'pangong',
             l6: 'Stock Village',
+            train: 'Train,Bus,Bike',
         },
         {
             heading: 'ANDAMAN & NICOBAR ISLANDS',
@@ -150,6 +153,7 @@ class StaticData{
             l1: 'Port Blair',
             l2: 'Havelock',
             l3: 'Neil island',
+            train: 'Flight',
         },
         {
             heading: 'HONEYMOON PACKAGE',
@@ -160,7 +164,7 @@ class StaticData{
             l2: 'Solang',
             l3: 'Naggar + jana waterfall',
             l4: 'kullu - manikaran',
-
+            train: 'Train, Bus',
         }
     ];
 }
