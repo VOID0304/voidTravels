@@ -38,8 +38,8 @@ const CardComponent =(props)=>{
                     </div>
                     <div className="card-body row">
                     <div className="d-flex justify-content-between align-items-start">
-                        <IconList  icon={<FaHotel/>} name='Hotel'/>
-                        <IconList  icon={<FaHotel/>} name='Hotel'/>
+                        <IconList  icon={<FaHotel/>} name='Package'/>
+                        <IconList  icon={<FaHotel/>} name='Train'/>
                         <IconList  icon={<FaHotel/>} name='Hotel'/>
                     </div>
                     </div> 
