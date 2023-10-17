@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/voidTravels/static/css/main.f464e4e3.css",
-    "main.js": "/voidTravels/static/js/main.905400ae.js",
+    "main.css": "/voidTravels/static/css/main.d5be3be3.css",
+    "main.js": "/voidTravels/static/js/main.0999d160.js",
     "static/media/vrindavan.png": "/voidTravels/static/media/vrindavan.5f7b025d3c7ea3aebad4.png",
     "static/media/islands.png": "/voidTravels/static/media/islands.a3ad08ecb1e135a242d3.png",
     "static/media/leh.png": "/voidTravels/static/media/leh.5cae3ed68e298bff0bb1.png",
     "static/media/image2.png": "/voidTravels/static/media/image2.48b22bd5b38b62a3162d.png",
+    "static/media/allepey.png": "/voidTravels/static/media/allepey.4972b9c18bba47925c30.png",
     "static/media/allindia.png": "/voidTravels/static/media/allindia.305055dffe8319d7d167.png",
     "static/media/image1.png": "/voidTravels/static/media/image1.bf48cfb83690188d6c04.png",
     "static/media/image3.png": "/voidTravels/static/media/image3.67ac8f700e0ec66c46fe.png",
@@ -24,11 +25,11 @@
     "static/media/udupi.png": "/voidTravels/static/media/udupi.400fc60b648f86858087.png",
     "static/media/nandihills.png": "/voidTravels/static/media/nandihills.19f5143b1d8d6f9006fa.png",
     "index.html": "/voidTravels/index.html",
-    "main.f464e4e3.css.map": "/voidTravels/static/css/main.f464e4e3.css.map",
-    "main.905400ae.js.map": "/voidTravels/static/js/main.905400ae.js.map"
+    "main.d5be3be3.css.map": "/voidTravels/static/css/main.d5be3be3.css.map",
+    "main.0999d160.js.map": "/voidTravels/static/js/main.0999d160.js.map"
   },
   "entrypoints": [
-    "static/css/main.f464e4e3.css",
-    "static/js/main.905400ae.js"
+    "static/css/main.d5be3be3.css",
+    "static/js/main.0999d160.js"
   ]
 }
