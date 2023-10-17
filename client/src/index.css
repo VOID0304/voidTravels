@@ -125,9 +125,9 @@ li{
     width: 40px;
 }
 
-img{
+/* img{
     width: 370px !important ;
-}
+} */
 
 .text{
     font-size: smaller;
@@ -142,6 +142,28 @@ button{
     text-decoration: none;
     color: black;
 }
+/* homepage start */
+
+.appbarbg{
+    background: var(--lineargradient) ;
+    
+}
+.navbar{
+    border-radius: 8px;
+    background: rgba(255,255,255,0.4);
+}
+.appicon{
+    border-radius: 8px;
+    background: #EAC7C7;
+}
+.appicon p{
+    display: inline;
+    font-weight: 600;
+}
+
+
+
+/* homepage completed */
 
 @media (max-width: 576px) { 
     .cards{
