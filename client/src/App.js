@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import SpecialPackages from "./screens/SpecialPackages/specialPackages";
 import MakemyPlan from "./screens/MakeMyPlan/makeMyPlan";
-
+import AppBar from "./screens/homepage/components/appbar";
 import IconList from "./screens/SpecialPackages/components/icons";
 import LogIn from "./screens/login/newlogin";
 
@@ -17,6 +17,7 @@ import LogIn from "./screens/login/newlogin";
 const App=()=> {
   return (
     <>
+    <AppBar/>
       <Routes>
         <Route path="/" Component={HomePage}/>
         <Route path="/login" Component={LogIn}/>

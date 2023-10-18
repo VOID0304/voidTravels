@@ -105,7 +105,40 @@ li{
     /* color: black; */
     text-decoration: none;
 }
+.makebox{
+    width: 1030px;
+    height: 945px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    background: rgba(234, 199, 199, 0.35);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.insidebox{
+    height: 750px;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    background:none;
+}
+.columnbox{
+    border: 1px solid #000;
+    height: 210px;
+    width: 40px;
+}
 
+/* img{
+    width: 370px !important ;
+} */
+
+.text{
+    font-size: smaller;
+}
+
+button{
+    border-radius: 10px;
+    border: 1px solid black;
+    background: var(--lineargradient);
+}
 .loginbox{
     height:max-content;
 }
@@ -131,6 +164,28 @@ p{
     text-decoration: none;
     color: black;
 }
+/* homepage start */
+
+.appbarbg{
+    background: var(--lineargradient) ;
+    
+}
+.navbar{
+    border-radius: 8px;
+    background: rgba(255,255,255,0.4);
+}
+.appicon{
+    border-radius: 8px;
+    background: #EAC7C7;
+}
+.appicon p{
+    display: inline;
+    font-weight: 600;
+}
+
+
+
+/* homepage completed */
 
 @media (max-width: 576px) { 
     .cards{
