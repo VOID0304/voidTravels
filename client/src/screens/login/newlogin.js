@@ -9,7 +9,7 @@ import carousel3 from "../../assets/images/carousel3.jpg"
 const LogIn = () => {
     return(
         <div className="row justify-content-center align-items-center">
-            <div className="col-6 p-5">
+            <div className="carous col-lg-6 col-sm-12 col-md-10 p-lg-5 p-md-2">
                         <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
@@ -24,7 +24,7 @@ const LogIn = () => {
                             </div>
                         </div>
                     </div>
-            <div className="loginbox col-5 p-5 mt-3">
+            <div className="loginbox col-lg-6 col-sm-10 col-md-7 p-lg-5 p-md-2 mt-3">
                 <div className="loginbg p-4">
                     <h1 className="text-center">LOGIN</h1>
                     <p className="mx-auto">Welcome to VOID TRAVELS</p>                    
@@ -39,9 +39,9 @@ const LogIn = () => {
                         <button type="submit" className="btn btn-dark w-100 py-2 mb-4">Login</button>
                     </form> 
                     <div className="row">
-                        <div className="col-4"><hr/></div>
-                        <div className="col-4"><p className="mx-auto">Or Login with</p></div>
-                        <div className="col-4"><hr/></div>
+                        <div className="altlog col-lg-4 col-md-4 col-sm-4"><hr/></div>
+                        <div className="altlogs col-lg-4 col-md-4 col-sm-4"><p className="mx-auto">Or Login with</p></div>
+                        <div className="altlog col-lg-4 col-md-4 col-sm-4"><hr/></div>
                     </div>
                     <div className="d-flex justify-content-center">
                         <div className="signinlogo m-3 p-2">

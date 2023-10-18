@@ -17,7 +17,7 @@ import LogIn from "./screens/login/newlogin";
 const App=()=> {
   return (
     <>
-    <AppBar/>
+    {/* <AppBar/> */}
       <Routes>
         <Route path="/" Component={HomePage}/>
         <Route path="/login" Component={LogIn}/>

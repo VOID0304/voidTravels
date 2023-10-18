@@ -191,6 +191,18 @@ p{
     .cards{
         display:block !important;
     }
+    .carous{
+        display: none;
+    }
+    .loginbox{
+        padding-inline: 35px;
+    }
+    .altlog{
+        width: 30%;
+    }
+    .altlogs{
+        width: 40%;
+    }
 }
 
 @media (min-width: 576px) { }
