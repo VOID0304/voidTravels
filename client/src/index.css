@@ -38,6 +38,7 @@
     padding: 0;
     margin: 0;
     font-family: var(--fontFamily-ubuntu);
+    overflow-x: hidden;
 }
 
 .state{
@@ -97,7 +98,7 @@ li{
 .login{
     background: var(--cream);
     /* border: 1px solid black; */
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
 }
 
 #loginbtn{
@@ -138,6 +139,27 @@ button{
     border: 1px solid black;
     background: var(--lineargradient);
 }
+.loginbox{
+    height:max-content;
+}
+
+.loginbg{
+    border-radius: 21px;
+    border: 1px solid #D2D2D2;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.signinlogo{
+    border-radius: 15px;
+    border: 1px solid #D2CBCB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+p{
+    width: fit-content;
+}
+
 #a{
     text-decoration: none;
     color: black;
@@ -168,6 +190,18 @@ button{
 @media (max-width: 576px) { 
     .cards{
         display:block !important;
+    }
+    .carous{
+        display: none;
+    }
+    .loginbox{
+        padding-inline: 35px;
+    }
+    .altlog{
+        width: 30%;
+    }
+    .altlogs{
+        width: 40%;
     }
 }
 
