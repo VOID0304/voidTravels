@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/voidTravels/static/css/main.00fae1f1.css",
-    "main.js": "/voidTravels/static/js/main.63e6fe46.js",
+    "main.js": "/voidTravels/static/js/main.2a859f63.js",
     "static/media/makemyplanimg.png": "/voidTravels/static/media/makemyplanimg.8f7c190f689bfaa21774.png",
     "static/media/vrindavan.png": "/voidTravels/static/media/vrindavan.5f7b025d3c7ea3aebad4.png",
     "static/media/islands.png": "/voidTravels/static/media/islands.a3ad08ecb1e135a242d3.png",
@@ -27,10 +27,10 @@
     "static/media/nandihills.png": "/voidTravels/static/media/nandihills.19f5143b1d8d6f9006fa.png",
     "index.html": "/voidTravels/index.html",
     "main.00fae1f1.css.map": "/voidTravels/static/css/main.00fae1f1.css.map",
-    "main.63e6fe46.js.map": "/voidTravels/static/js/main.63e6fe46.js.map"
+    "main.2a859f63.js.map": "/voidTravels/static/js/main.2a859f63.js.map"
   },
   "entrypoints": [
     "static/css/main.00fae1f1.css",
-    "static/js/main.63e6fe46.js"
+    "static/js/main.2a859f63.js"
   ]
 }
