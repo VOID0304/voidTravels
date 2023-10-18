@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/voidTravels/static/css/main.f5dfff1a.css",
-    "main.js": "/voidTravels/static/js/main.b37345a7.js",
+    "main.css": "/voidTravels/static/css/main.00fae1f1.css",
+    "main.js": "/voidTravels/static/js/main.63e6fe46.js",
+    "static/media/makemyplanimg.png": "/voidTravels/static/media/makemyplanimg.8f7c190f689bfaa21774.png",
     "static/media/vrindavan.png": "/voidTravels/static/media/vrindavan.5f7b025d3c7ea3aebad4.png",
     "static/media/islands.png": "/voidTravels/static/media/islands.a3ad08ecb1e135a242d3.png",
     "static/media/leh.png": "/voidTravels/static/media/leh.5cae3ed68e298bff0bb1.png",
@@ -11,9 +12,7 @@
     "static/media/image1.png": "/voidTravels/static/media/image1.bf48cfb83690188d6c04.png",
     "static/media/image3.png": "/voidTravels/static/media/image3.67ac8f700e0ec66c46fe.png",
     "static/media/carousel3.jpg": "/voidTravels/static/media/carousel3.e181439bc74f96b9bc17.jpg",
-    "static/media/googlelogo.svg": "/voidTravels/static/media/googlelogo.39207ca64cd5e8f1ff065ef88a7837b0.svg",
     "static/media/honeymoon.png": "/voidTravels/static/media/honeymoon.8b2f18f950ab0dc2574a.png",
-    "static/media/Void logo.svg": "/voidTravels/static/media/Void logo.3d4a84ad9b27ac52d842a879744741a6.svg",
     "static/media/chikmagalur.png": "/voidTravels/static/media/chikmagalur.4c435838e62ae26b9817.png",
     "static/media/coorg.png": "/voidTravels/static/media/coorg.e0e2d6231b2df2982e02.png",
     "static/media/hampi.png": "/voidTravels/static/media/hampi.edbbf28593bf0c6e882d.png",
@@ -27,12 +26,11 @@
     "static/media/udupi.png": "/voidTravels/static/media/udupi.400fc60b648f86858087.png",
     "static/media/nandihills.png": "/voidTravels/static/media/nandihills.19f5143b1d8d6f9006fa.png",
     "index.html": "/voidTravels/index.html",
-    "static/media/profile.svg": "/voidTravels/static/media/profile.7b684d890d5ccb4248bdf98c926e7f08.svg",
-    "main.f5dfff1a.css.map": "/voidTravels/static/css/main.f5dfff1a.css.map",
-    "main.b37345a7.js.map": "/voidTravels/static/js/main.b37345a7.js.map"
+    "main.00fae1f1.css.map": "/voidTravels/static/css/main.00fae1f1.css.map",
+    "main.63e6fe46.js.map": "/voidTravels/static/js/main.63e6fe46.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5dfff1a.css",
-    "static/js/main.b37345a7.js"
+    "static/css/main.00fae1f1.css",
+    "static/js/main.63e6fe46.js"
   ]
 }
