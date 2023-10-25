@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/voidTravels/static/css/main.5b2fe261.css",
-    "main.js": "/voidTravels/static/js/main.afa48487.js",
+    "main.css": "/voidTravels/static/css/main.873c5466.css",
+    "main.js": "/voidTravels/static/js/main.e6f12d62.js",
+    "static/media/img1.png": "/voidTravels/static/media/img1.af3874a4378ee224dcba.png",
+    "static/media/img5.png": "/voidTravels/static/media/img5.16d040137bc1bb2d00aa.png",
+    "static/media/img4.png": "/voidTravels/static/media/img4.0b8a5e7956c062a87cc8.png",
+    "static/media/img3.png": "/voidTravels/static/media/img3.b6b2ab2ecb2061c155c8.png",
     "static/media/makemyplanimg.png": "/voidTravels/static/media/makemyplanimg.8f7c190f689bfaa21774.png",
+    "static/media/img2.png": "/voidTravels/static/media/img2.c55b2153ac0f53dc7cf9.png",
     "static/media/vrindavan.png": "/voidTravels/static/media/vrindavan.5f7b025d3c7ea3aebad4.png",
     "static/media/islands.png": "/voidTravels/static/media/islands.a3ad08ecb1e135a242d3.png",
     "static/media/leh.png": "/voidTravels/static/media/leh.5cae3ed68e298bff0bb1.png",
@@ -12,9 +17,11 @@
     "static/media/image1.png": "/voidTravels/static/media/image1.bf48cfb83690188d6c04.png",
     "static/media/image3.png": "/voidTravels/static/media/image3.67ac8f700e0ec66c46fe.png",
     "static/media/carousel3.jpg": "/voidTravels/static/media/carousel3.e181439bc74f96b9bc17.jpg",
-    "static/media/googlelogo.svg": "/voidTravels/static/media/googlelogo.da63473231f1647b4fbfc98041202fb3.svg",
+    "static/media/googlelogo.svg": "/voidTravels/static/media/googlelogo.39207ca64cd5e8f1ff065ef88a7837b0.svg",
     "static/media/honeymoon.png": "/voidTravels/static/media/honeymoon.8b2f18f950ab0dc2574a.png",
-    "static/media/Void logo.svg": "/voidTravels/static/media/Void logo.3d4a84ad9b27ac52d842a879744741a6.svg",
+    "static/media/karnataka.png": "/voidTravels/static/media/karnataka.e8309bd92f864d6ce4c5.png",
+    "static/media/coupon.png": "/voidTravels/static/media/coupon.f50710aefa46acdfd05e.png",
+    "static/media/Void logo.svg": "/voidTravels/static/media/Void logo.42fd5d4db4116850ee9c56f127d1e252.svg",
     "static/media/chikmagalur.png": "/voidTravels/static/media/chikmagalur.4c435838e62ae26b9817.png",
     "static/media/coorg.png": "/voidTravels/static/media/coorg.e0e2d6231b2df2982e02.png",
     "static/media/hampi.png": "/voidTravels/static/media/hampi.edbbf28593bf0c6e882d.png",
@@ -28,12 +35,12 @@
     "static/media/udupi.png": "/voidTravels/static/media/udupi.400fc60b648f86858087.png",
     "static/media/nandihills.png": "/voidTravels/static/media/nandihills.19f5143b1d8d6f9006fa.png",
     "index.html": "/voidTravels/index.html",
-    "static/media/profile.svg": "/voidTravels/static/media/profile.7b684d890d5ccb4248bdf98c926e7f08.svg",
-    "main.5b2fe261.css.map": "/voidTravels/static/css/main.5b2fe261.css.map",
-    "main.afa48487.js.map": "/voidTravels/static/js/main.afa48487.js.map"
+    "static/media/profile.svg": "/voidTravels/static/media/profile.b2a957edf103006ec57a3c25ccce8bce.svg",
+    "main.873c5466.css.map": "/voidTravels/static/css/main.873c5466.css.map",
+    "main.e6f12d62.js.map": "/voidTravels/static/js/main.e6f12d62.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b2fe261.css",
-    "static/js/main.afa48487.js"
+    "static/css/main.873c5466.css",
+    "static/js/main.e6f12d62.js"
   ]
 }
