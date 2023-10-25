@@ -167,7 +167,7 @@ img {
   }
   .columnbox {
     border: 1px solid #000;
-    height: 210px;
+    /* height: 210px; */
     width: 40px;
   }
 }
@@ -179,7 +179,11 @@ img {
   font-size: smaller;
   list-style-type: none;
   display: inline-block;
-  margin-left: -33px;
+  /* margin-left: -33px; */
+}
+
+ul{
+    padding-left: 0 !important;
 }
 
 /* button {
@@ -215,6 +219,7 @@ p {
   text-decoration: none;
   color: black;
 }
+
 /* homepage start */
 
 .appbarbg {

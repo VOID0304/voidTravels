@@ -7,12 +7,14 @@ import StringConstants from "../../constants/string_constants";
 // import { alignPropType } from "react-bootstrap/esm/types";
 import StateCard from "./components/StateCard";
 import StaticData from "../../constants/static_data";
+import AppBar from "../homepage/components/appbar";
 
 
 const StateTourism=()=>{
     
     return(
         <React.Fragment>
+        <AppBar/>
         <section className="p-lg-5">
             <div className='row'>
                 <div className='z-n1 col-lg-3 position-absolute'>
