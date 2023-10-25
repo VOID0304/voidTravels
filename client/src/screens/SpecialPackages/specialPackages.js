@@ -11,9 +11,12 @@ import image3 from "../../assets/images/image3.png";
 import CardComponent from "./components/cardComponent";
 import StaticData from "../../constants/static_data";
 import {FaGlobeAsia} from "react-icons/fa";
+import AppBar from "../homepage/components/appbar";
 
 const SpecialPackages =()=>{
     return (
+        <>
+        <AppBar/>
         <div className="container text-center">
         
         <div className="mt-5 row">
@@ -31,6 +34,8 @@ const SpecialPackages =()=>{
             </div>
         </div>
         </div>
+        </>
+        
     );
 }
 
