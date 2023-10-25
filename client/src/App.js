@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, Routes, Navigate} from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import SignIn from "./screens/login/signIn";
 import HomePage from "./screens/homepage/home";
 import StateTourism from "./screens/StateTourism/stateTourism";
@@ -13,23 +13,22 @@ import AppBar from "./screens/homepage/components/appbar";
 import IconList from "./screens/SpecialPackages/components/icons";
 import LogIn from "./screens/login/newlogin";
 
-
-const App=()=> {
+const App = () => {
   return (
     <>
     {/* <AppBar/> */}
       <Routes>
-        <Route path="/" Component={HomePage}/>
-        <Route path="/login" Component={LogIn}/>
-        <Route path="*" element={<Navigate replace to={"/"}/>} />
-        <Route path="/stateTourism" Component={StateTourism}/>
-        <Route path="/specialPackages" Component={SpecialPackages}/>
-        <Route path="/makemyplan" Component={MakemyPlan}/>
+        <Route path="/HomePage" Component={HomePage} />
+        <Route path="/login" Component={LogIn} />
+        <Route path="*" element={<Navigate replace to={"/"} />} />
+        <Route path="/stateTourism" Component={StateTourism} />
+        <Route path="/specialPackages" Component={SpecialPackages} />
+        <Route path="/makemyplan" Component={MakemyPlan} />
         <Route path="/signup" Component={SignUp}/>
         <Route path="/forgotpassword" Component={ForgotPwd}/>
       </Routes>
     </>
   );
-}
+};
 
 export default App;
