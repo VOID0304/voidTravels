@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/voidTravels/static/css/main.873c5466.css",
-    "main.js": "/voidTravels/static/js/main.e6f12d62.js",
+    "main.css": "/voidTravels/static/css/main.2126d997.css",
+    "main.js": "/voidTravels/static/js/main.be06ae8f.js",
     "static/media/img1.png": "/voidTravels/static/media/img1.af3874a4378ee224dcba.png",
     "static/media/img5.png": "/voidTravels/static/media/img5.16d040137bc1bb2d00aa.png",
     "static/media/img4.png": "/voidTravels/static/media/img4.0b8a5e7956c062a87cc8.png",
@@ -21,7 +21,8 @@
     "static/media/honeymoon.png": "/voidTravels/static/media/honeymoon.8b2f18f950ab0dc2574a.png",
     "static/media/karnataka.png": "/voidTravels/static/media/karnataka.e8309bd92f864d6ce4c5.png",
     "static/media/coupon.png": "/voidTravels/static/media/coupon.f50710aefa46acdfd05e.png",
-    "static/media/Void logo.svg": "/voidTravels/static/media/Void logo.42fd5d4db4116850ee9c56f127d1e252.svg",
+    "static/media/Void logo.svg": "/voidTravels/static/media/Void logo.3d4a84ad9b27ac52d842a879744741a6.svg",
+    "static/media/signup3.jpg": "/voidTravels/static/media/signup3.a44bc45138029f8892ce.jpg",
     "static/media/chikmagalur.png": "/voidTravels/static/media/chikmagalur.4c435838e62ae26b9817.png",
     "static/media/coorg.png": "/voidTravels/static/media/coorg.e0e2d6231b2df2982e02.png",
     "static/media/hampi.png": "/voidTravels/static/media/hampi.edbbf28593bf0c6e882d.png",
@@ -34,13 +35,14 @@
     "static/media/carousel2.jpg": "/voidTravels/static/media/carousel2.1e0296ee21c6d0ff7457.jpg",
     "static/media/udupi.png": "/voidTravels/static/media/udupi.400fc60b648f86858087.png",
     "static/media/nandihills.png": "/voidTravels/static/media/nandihills.19f5143b1d8d6f9006fa.png",
+    "static/media/signup4.avif": "/voidTravels/static/media/signup4.5e15f250e8821e2108e8.avif",
     "index.html": "/voidTravels/index.html",
-    "static/media/profile.svg": "/voidTravels/static/media/profile.b2a957edf103006ec57a3c25ccce8bce.svg",
-    "main.873c5466.css.map": "/voidTravels/static/css/main.873c5466.css.map",
-    "main.e6f12d62.js.map": "/voidTravels/static/js/main.e6f12d62.js.map"
+    "static/media/profile.svg": "/voidTravels/static/media/profile.7b684d890d5ccb4248bdf98c926e7f08.svg",
+    "main.2126d997.css.map": "/voidTravels/static/css/main.2126d997.css.map",
+    "main.be06ae8f.js.map": "/voidTravels/static/js/main.be06ae8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.873c5466.css",
-    "static/js/main.e6f12d62.js"
+    "static/css/main.2126d997.css",
+    "static/js/main.be06ae8f.js"
   ]
 }
