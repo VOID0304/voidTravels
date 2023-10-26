@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import googlelogo from "../../assets/images/googlelogo.svg";
 import fblogo from "../../assets/images/fblogo.png";
 import { NavLink } from "react-router-dom";
@@ -7,6 +7,11 @@ import carousel2 from "../../assets/images/carousel2.jpg"
 import carousel3 from "../../assets/images/carousel3.jpg"
 
 const LogIn = () => {
+    const [data,setData]=useState({
+        email:'',
+        password:'',
+    })
+    console.log('data',data);
     return(
         <div className="row justify-content-center align-items-center">
             <div className="carous col-lg-6 col-sm-12 col-md-10 p-lg-5 p-md-2">
@@ -30,10 +35,10 @@ const LogIn = () => {
                     <p className="mx-auto">Welcome to VOID TRAVELS</p>                    
                     <form action="/login">
                         <div className="mb-3">
-                            <input type="email" className="form-control py-2" placeholder="Email" aria-label="Email"></input>
+                            <input onChange={(e)=>setData({...data,email:e.target.value})} value={data.email} type="email" className="form-control py-2" placeholder="Email" aria-label="Email"></input>
                         </div>
                         <div className="mb-3">
-                            <input type="password" className="form-control py-2" placeholder="Password" aria-label="Password"></input>
+                            <input onChange={(e)=>setData({...data,password:e.target.value})} value={data.password} type="password" className="form-control py-2" placeholder="Password" aria-label="Password"></input>
                         </div>
                         <p className="ms-auto"><NavLink to="/forgotpassword" style={{textDecoration:'none', color:'black'}}><b>Forgot Password ?</b></NavLink></p>
                         <button type="submit" className="btn btn-dark w-100 py-2 mb-4">Login</button>
