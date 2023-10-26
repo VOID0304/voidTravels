@@ -167,8 +167,8 @@ li {
   text-decoration: none;
 }
 .makebox {
-  width: 1530px;
-  height: 945px;
+  /* width: 1530px;
+  height: 945px; */
   border-radius: 30px;
   border: 1px solid rgba(0, 0, 0, 0.75);
   background: rgba(234, 199, 199, 0.35);
@@ -176,8 +176,8 @@ li {
     0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .divtag {
-  width: 1450px;
-  height: 550px;
+  /* width: 1450px;
+  height: 550px; */
   flex-shrink: 0;
   border-radius: 0px 0px 20px 20px;
   background: linear-gradient(102deg, #f3a49b 0%, #787fc2 100%);
@@ -274,13 +274,7 @@ p {
   display: inline;
   font-weight: 600;
 }
-.divtag {
-  width: 1450px;
-  height: 550px;
-  flex-shrink: 0;
-  border-radius: 0px 0px 20px 20px;
-  background: linear-gradient(102deg, #f3a49b 0%, #787fc2 100%);
-}
+
 img {
   border-radius: 15px;
 }
