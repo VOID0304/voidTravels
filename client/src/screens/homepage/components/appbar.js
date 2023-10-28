@@ -53,7 +53,7 @@ const AppBar = ()=>{
 
                   </NavLink>
 
-                  <NavLink className="nav-link mb-sm-4 mb-xs-4 mb-lg-0 ms-auto" >
+                  <NavLink to="/login" className="nav-link mb-sm-4 mb-xs-4 mb-lg-0 ms-auto" >
 
                   <div>
 
