@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/voidTravels/static/css/main.c20dcd37.css",
-    "main.js": "/voidTravels/static/js/main.fb1cb017.js",
+    "main.js": "/voidTravels/static/js/main.01a805be.js",
     "static/media/img1.png": "/voidTravels/static/media/img1.af3874a4378ee224dcba.png",
     "static/media/img5.png": "/voidTravels/static/media/img5.16d040137bc1bb2d00aa.png",
     "static/media/img4.png": "/voidTravels/static/media/img4.0b8a5e7956c062a87cc8.png",
@@ -37,10 +37,10 @@
     "index.html": "/voidTravels/index.html",
     "static/media/profile.svg": "/voidTravels/static/media/profile.7b684d890d5ccb4248bdf98c926e7f08.svg",
     "main.c20dcd37.css.map": "/voidTravels/static/css/main.c20dcd37.css.map",
-    "main.fb1cb017.js.map": "/voidTravels/static/js/main.fb1cb017.js.map"
+    "main.01a805be.js.map": "/voidTravels/static/js/main.01a805be.js.map"
   },
   "entrypoints": [
     "static/css/main.c20dcd37.css",
-    "static/js/main.fb1cb017.js"
+    "static/js/main.01a805be.js"
   ]
 }
