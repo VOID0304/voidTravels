@@ -9,14 +9,17 @@ const StateCards = () => {
         axios.get('/getAllStates').then((res)=>{setData(res.data.states)})
     },[]);
   return (
-    <>
+    <>  
       <div className=" m-5 p-4 statecard">
         <h2>STATE TOURISM</h2>
         <div className="statecard-images">
-          <StateCardImg/>
-          <StateCardImg/>
-          <StateCardImg/>
-          <StateCardImg/>
+          {
+            data.map((item, index) => {
+              return (
+                <StateCardImg key={index} state={item.state} img={item.img}/>
+              )
+            })
+          }
         </div>
       </div>
     </>

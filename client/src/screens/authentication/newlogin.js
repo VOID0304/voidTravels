@@ -29,6 +29,7 @@ const LogIn = () => {
             }
         })
     }
+
     return(
         <div className="row justify-content-center align-items-center">
             <div className="carous col-lg-6 col-sm-12 col-md-10 p-lg-5 p-md-2">
@@ -49,16 +50,16 @@ const LogIn = () => {
             <div className="loginbox col-lg-6 col-sm-10 col-md-7 p-lg-5 p-md-2 mt-3">
                 <div className="loginbg p-4">
                     <h1 className="text-center">LOGIN</h1>
-                    <p className="mx-auto">Welcome to VOID TRAVELS</p>                    
-                    <form action="/login">
+                    <p className="mx-auto">Welcome to VOID TRAVELS</p>          
+                    <form onSubmit={submitHandler} method="POST">
                         <div className="mb-3">
-                            <input onChange={(e)=>setData({...data,email:e.target.value})} value={data.email} type="email" className="form-control py-2" placeholder="Email" aria-label="Email"></input>
+                            <input onChange={(e)=>setData({...data,email:e.target.value})} value={data.email} type="email" className="form-control py-2" placeholder="Email" aria-label="Email" required/>
                         </div>
                         <div className="mb-3">
-                            <input onChange={(e)=>setData({...data,password:e.target.value})} value={data.password} type="password" className="form-control py-2" placeholder="Password" aria-label="Password"></input>
+                            <input onChange={(e)=>setData({...data,password:e.target.value})} value={data.password} type="password" className="form-control py-2" placeholder="Password" aria-label="Password" required/>
                         </div>
                         <p className="ms-auto"><NavLink to="/forgotpassword" style={{textDecoration:'none', color:'black'}}><b>Forgot Password ?</b></NavLink></p>
-                        <button onClick={submitHandler} type="submit" className="btn btn-dark w-100 py-2 mb-4">Login</button>
+                        <button type="submit" className="btn btn-dark w-100 py-2 mb-4">Login</button>
                     </form> 
                     <div className="row">
                         <div className="altlog col-lg-4 col-md-4 col-sm-4"><hr/></div>
@@ -67,10 +68,10 @@ const LogIn = () => {
                     </div>
                     <div className="d-flex justify-content-center">
                         <div className="signinlogo m-3 p-2">
-                            <img src={googlelogo}></img>
+                            <img src={googlelogo} alt="google"></img>
                         </div>
                         <div className="signinlogo m-3 p-2">
-                            <img src={fblogo}></img>
+                            <img src={fblogo} alt="fb"></img>
                         </div>
                     </div>
                     <div>

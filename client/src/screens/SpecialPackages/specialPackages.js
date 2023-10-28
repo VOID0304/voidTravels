@@ -1,10 +1,4 @@
 import React from "react";
-import StringConstants from "../../constants/string_constants";
-// import Card from 'react-bootstrap/Card';
-// import ListGroup from 'react-bootstrap/ListGroup';
-// import allepy from "../../assets/images/allepy.png";
-// import CardBody from "react-bootstrap/esm/CardBody";
-// import { alignPropType } from "react-bootstrap/esm/types";
 import image1 from "../../assets/images/image1.png";
 import image2 from "../../assets/images/image2.png";
 import image3 from "../../assets/images/image3.png";

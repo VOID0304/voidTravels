@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import signup4 from "../../assets/images/signup4.avif";
-import signup3 from "../../assets/images/signup3.jpg";
 import axios from "../../services/instance";
 import { useNavigate } from "react-router-dom";
 
@@ -43,7 +42,7 @@ const SignUp = () => {
     }
 
     return(
-            <div class="container text-center">
+            <div className="container text-center">
                 <div className="row vh-100 flex-row justify-content-center">
                     <div className="signupvec col-7">
                         <img src={signup4} alt='sign-up to VOID' className="vh-100"></img>
@@ -51,44 +50,44 @@ const SignUp = () => {
                     <div className="col align-items-center d-flex">
                     <div className="loginbg p-3 w-100">
                         <h1 className="mb-3">SIGNUP</h1>
-                    <form method="POST" className="row g-2 justify-content-around ">
+                    <form  onSubmit={submitHandler} method="POST" className="row g-2 justify-content-around ">
                             {/* 1stname */}
                             <div className="col-md-6 pb-3 ">
-                                <label for="validationServer01" class="form-label text-start d-block">Name</label>
-                                <input onChange={(e)=>setData({...data,name:e.target.value})} value={data.name} type="text" className="form-control" id="validationServer01" placeholder="Enter your name..." required />
+                                <label className="form-label text-start d-block">Name</label>
+                                <input id="first-name" onChange={(e)=>setData({...data,name:e.target.value})} value={data.name} type="text" className="form-control" placeholder="Enter your name..." required />
                             </div>
-                            {/* lastname */}
-                            <div class="col-md-6 pb-3">
-                                <label for="validationServer02" class="form-label text-start d-block">Gender</label>
-                                <input onChange={(e)=>setData({...data,gender:e.target.value})} value={data.gender} type="text" class="form-control" id="validationServer02" placeholder="Enter your gender..." required />
-                                <div class="valid-feedback">
+                            {/* gender */}
+                            <div className="col-md-6 pb-3">
+                                <label htmlFor="validationServer02" className="form-label text-start d-block">Gender</label>
+                                <input id="gender" onChange={(e)=>setData({...data,gender:e.target.value})} value={data.gender} type="text" className="form-control" placeholder="Enter your gender..." required />
+                                <div className="valid-feedback">
                                 Looks good!
                                 </div>
                             </div>
                             {/* country */}
-                            <div class="col-md-6 pb-3">
-                                <label for="validationServerUsername" class="form-label text-start d-block">Country</label>
-                                <input onChange={(e)=>setData({...data,country:e.target.value})} value={data.country} type="text" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="Enter your Country..." required />
-                                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                            <div className="col-md-6 pb-3">
+                                <label htmlFor="validationServerUsername" className="form-label text-start d-block">Country</label>
+                                <input id="country" onChange={(e)=>setData({...data,country:e.target.value})} value={data.country} type="text" className="form-control" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="Enter your Country..." required />
+                                <div id="validationServerUsernameFeedback" className="invalid-feedback">
                                     Please choose a username.
                                 </div>
                             </div>
                             {/* state */}
-                            <div class="col-md-6 pb-3">
-                                <label for="validationServer04" class="form-label text-start d-block">State</label>
-                                <input onChange={(e)=>setData({...data,state:e.target.value})} value={data.state} type="text" className="form-control" id="validationServer04" placeholder="Enter your state..." required />
+                            <div className="col-md-6 pb-3">
+                                <label htmlFor="validationServer04" className="form-label text-start d-block">State</label>
+                                <input id="state" onChange={(e)=>setData({...data,state:e.target.value})} value={data.state} type="text" className="form-control" placeholder="Enter your state..." required />
                             </div>
                             {/* city */}
-                            <div class="col-md-6 pb-3">
-                                <label for="validationServer03" class="form-label text-start d-block">City</label>
-                                <input onChange={(e)=>setData({...data,city:e.target.value})} value={data.city} type="text" class="form-control" id="validationServer03" aria-describedby="validationServer03Feedback" placeholder="Enter your city..." required />
-                                <div id="validationServer03Feedback" class="invalid-feedback">
+                            <div className="col-md-6 pb-3">
+                                <label htmlFor="validationServer03" className="form-label text-start d-block">City</label>
+                                <input id="city" onChange={(e)=>setData({...data,city:e.target.value})} value={data.city} type="text" className="form-control"  aria-describedby="validationServer03Feedback" placeholder="Enter your city..." required />
+                                <div id="validationServer03Feedback" className="invalid-feedback">
                                 Please provide a valid city.
                                 </div>
                             </div>
                             {/* zip */}
                             {/* <div class="col-md-6 pb-3">
-                                <label for="validationServer05" class="form-label text-start d-block">Zip</label>
+                                <label htmlFor="validationServer05" class="form-label text-start d-block">Zip</label>
                                 <input onChange={(e)=>setData({...data,zip:e.target.value})} value={data.zip} type="text" class="form-control" id="validationServer05" aria-describedby="validationServer05Feedback" placeholder="Enter your zip code..." required />
                                 <div id="validationServer05Feedback" class="invalid-feedback">
                                 Please provide a valid zip.
@@ -96,42 +95,42 @@ const SignUp = () => {
                             </div> */}
                             {/* phno */}
                             <div className="col-md-6 pb-3">
-                                <label for="validationServer01" class="form-label text-start d-block">Phone Number</label>
-                                <input onChange={(e)=>setData({...data,phone:e.target.value})} value={data.phone} type="number" className="form-control" id="validationServer01" placeholder="Enter your Phone number..." required />
+                                <label htmlFor="validationServer01" className="form-label text-start d-block">Phone Number</label>
+                                <input id="phone" onChange={(e)=>setData({...data,phone:e.target.value})} value={data.phone} type="number" className="form-control" placeholder="Enter your Phone number..." required />
                             </div>
                              {/* mail */}
-                             <div class="col-md-12 pb-3">
-                                <label for="validationServerUsername" class="form-label text-start d-block">Email</label>
-                                <div class="input-group has-validation">
-                                <span  class="input-group-text" id="inputGroupPrepend3">@</span>
-                                <input onChange={(e)=>setData({...data,email:e.target.value})} value={data.email} type="email" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="Enter your email..." required />
+                             <div className="col-md-12 pb-3">
+                                <label htmlFor="validationServerUsername" className="form-label text-start d-block">Email</label>
+                                <div className="input-group has-validation">
+                                <span  className="input-group-text" id="inputGroupPrepend3">@</span>
+                                <input id="email" onChange={(e)=>setData({...data,email:e.target.value})} value={data.email} type="email" className="form-control" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="Enter your email..." required />
                                 </div>
                             </div>
                             {/* pass */}
                             <div className="col-md-6 pb-3">
-                                <label for="validationServer01" class="form-label text-start d-block">Password</label>
-                                <input onChange={(e)=>setData({...data,password:e.target.value})} value={data.password} type="password" className="form-control" id="validationServer01" placeholder="Create your password..." required />
+                                <label htmlFor="validationServer01" className="form-label text-start d-block">Password</label>
+                                <input onChange={(e)=>setData({...data,password:e.target.value})} value={data.password} type="password" className="form-control" placeholder="Create your password..." required />
                             </div>
                             {/* conpass */}
                             <div className="col-md-6 pb-3">
-                                <label for="validationServer01" class="form-label text-start d-block">Confirm Password</label>
-                                <input onChange={(e)=>setData({...data,cpassword:e.target.value})} value={data.cpassword} type="password" className="form-control" id="validationServer01" placeholder="Confirm your passowrd..." required />
+                                <label htmlFor="validationServer01" className="form-label text-start d-block">Confirm Password</label>
+                                <input onChange={(e)=>setData({...data,cpassword:e.target.value})} value={data.cpassword} type="password" className="form-control" placeholder="Confirm your passowrd..." required />
                             </div>
                             {/* agree */}
-                            <div class="col-12 pb-3 ">
-                                <div class="form-check">
-                                <input class="form-check-input ms-auto me-2" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required />
-                                <label class="form-check-label text-start d-block"  for="invalidCheck3">
+                            <div className="col-12 pb-3 ">
+                                <div className="form-check">
+                                <input className="form-check-input ms-auto me-2" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required />
+                                <label className="form-check-label text-start d-block"  htmlFor="invalidCheck3">
                                     Agree to terms and conditions
                                 </label>
-                                <div id="invalidCheck3Feedback" class="invalid-feedback pb-3">
+                                <div id="invalidCheck3Feedback" className="invalid-feedback pb-3">
                                     You must agree before submitting.
                                 </div>
                                 </div>
                             </div>
                             {/* btn */}
-                            <div class="col-12 pb-3">
-                                <button onClick={submitHandler} class="btn btn-primary" type="submit">Submit form</button>
+                            <div className="col-12 pb-3">
+                                <button className="btn btn-primary" type="submit">Submit form</button>
                             </div>
                             </form>
                             </div>
