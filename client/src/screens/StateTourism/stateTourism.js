@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import StringConstants from "../../constants/string_constants";
 // import Card from 'react-bootstrap/Card';
 // import ListGroup from 'react-bootstrap/ListGroup';
@@ -8,10 +8,18 @@ import StringConstants from "../../constants/string_constants";
 import StateCard from "./components/StateCard";
 import StaticData from "../../constants/static_data";
 import AppBar from "../homepage/components/appbar";
-
+import axios from "../../services/instance";
 
 const StateTourism=()=>{
-    
+    const [data, setData] = useState([]);
+    useEffect(()=>{ 
+        axios.get('/getStateListings',{
+            params:{
+                state:StringConstants.stateName,
+            }
+        }).then((res)=>{setData(res.data.lists)})
+    },[]);
+
     return(
         <React.Fragment>
         <AppBar/>
@@ -33,7 +41,7 @@ const StateTourism=()=>{
                         <p className="fs-5 mt-3"><b>Here are top 10 places to visit</b></p>
                     </div>
                 {
-                    StaticData.StateListdata.map((val, index)=><StateCard title={val.title} img={val.img} description={val.description} stars={val.stars} besttime={val.besttime} tourist={val.tourist}/>)
+                    data.map((val, index)=><StateCard title={val.title} img={val.img} description={val.description} stars={val.rating} besttime={val.besttime} tourist={val.tourist}/>)
                 }
                 </div>
             </div>
