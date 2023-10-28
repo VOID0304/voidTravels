@@ -1,17 +1,17 @@
 import React from "react";
 import {  Route, Routes, Navigate  } from "react-router-dom";
-import SignIn from "./screens/login/signIn";
+import SignIn from "./screens/authentication/signIn";
 import HomePage from "./screens/homepage/home";
 import StateTourism from "./screens/StateTourism/stateTourism";
-import SignUp from "./screens/login/signup";
-import ForgotPwd from "./screens/login/forgotpass";
+import SignUp from "./screens/authentication/signup";
+import ForgotPwd from "./screens/authentication/forgotpass";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import SpecialPackages from "./screens/SpecialPackages/specialPackages";
 import MakemyPlan from "./screens/MakeMyPlan/makeMyPlan";
 import AppBar from "./screens/homepage/components/appbar";
 import IconList from "./screens/SpecialPackages/components/icons";
-import LogIn from "./screens/login/newlogin";
+import LogIn from "./screens/authentication/newlogin";
 
 const App = () => {
   return (

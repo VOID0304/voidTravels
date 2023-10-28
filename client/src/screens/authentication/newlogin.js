@@ -1,17 +1,34 @@
 import React, { useState } from "react";
 import googlelogo from "../../assets/images/googlelogo.svg";
 import fblogo from "../../assets/images/fblogo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import carousel1 from "../../assets/images/carousel1.jpg"
 import carousel2 from "../../assets/images/carousel2.jpg"
 import carousel3 from "../../assets/images/carousel3.jpg"
+// import axios from "axios";
+import axios from "../../services/instance";
 
 const LogIn = () => {
+    const navigate = useNavigate();
     const [data,setData]=useState({
         email:'',
         password:'',
     })
-    console.log('data',data);
+
+    const submitHandler = (e)=>{
+        e.preventDefault();
+        const {email,password} = data;
+        axios.post("/login",{
+            email:email,
+            password:password,
+        }).then(function (response){
+            navigate('/');
+        }).catch(function (error){
+            if (error.response) {
+                window.alert(error.response.data["message"]);
+            }
+        })
+    }
     return(
         <div className="row justify-content-center align-items-center">
             <div className="carous col-lg-6 col-sm-12 col-md-10 p-lg-5 p-md-2">
@@ -41,7 +58,7 @@ const LogIn = () => {
                             <input onChange={(e)=>setData({...data,password:e.target.value})} value={data.password} type="password" className="form-control py-2" placeholder="Password" aria-label="Password"></input>
                         </div>
                         <p className="ms-auto"><NavLink to="/forgotpassword" style={{textDecoration:'none', color:'black'}}><b>Forgot Password ?</b></NavLink></p>
-                        <button type="submit" className="btn btn-dark w-100 py-2 mb-4">Login</button>
+                        <button onClick={submitHandler} type="submit" className="btn btn-dark w-100 py-2 mb-4">Login</button>
                     </form> 
                     <div className="row">
                         <div className="altlog col-lg-4 col-md-4 col-sm-4"><hr/></div>
@@ -64,5 +81,6 @@ const LogIn = () => {
         </div>
     );
 }
+
 
 export default LogIn;
