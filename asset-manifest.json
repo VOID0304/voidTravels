@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/voidTravels/static/css/main.2126d997.css",
-    "main.js": "/voidTravels/static/js/main.be06ae8f.js",
+    "main.css": "/voidTravels/static/css/main.4a94be44.css",
+    "main.js": "/voidTravels/static/js/main.27413eb3.js",
     "static/media/img1.png": "/voidTravels/static/media/img1.af3874a4378ee224dcba.png",
     "static/media/img5.png": "/voidTravels/static/media/img5.16d040137bc1bb2d00aa.png",
     "static/media/img4.png": "/voidTravels/static/media/img4.0b8a5e7956c062a87cc8.png",
@@ -38,11 +38,11 @@
     "static/media/signup4.avif": "/voidTravels/static/media/signup4.5e15f250e8821e2108e8.avif",
     "index.html": "/voidTravels/index.html",
     "static/media/profile.svg": "/voidTravels/static/media/profile.7b684d890d5ccb4248bdf98c926e7f08.svg",
-    "main.2126d997.css.map": "/voidTravels/static/css/main.2126d997.css.map",
-    "main.be06ae8f.js.map": "/voidTravels/static/js/main.be06ae8f.js.map"
+    "main.4a94be44.css.map": "/voidTravels/static/css/main.4a94be44.css.map",
+    "main.27413eb3.js.map": "/voidTravels/static/js/main.27413eb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.2126d997.css",
-    "static/js/main.be06ae8f.js"
+    "static/css/main.4a94be44.css",
+    "static/js/main.27413eb3.js"
   ]
 }
