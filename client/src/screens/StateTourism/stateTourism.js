@@ -1,25 +1,20 @@
 import React, { useEffect, useState } from "react";
 import StringConstants from "../../constants/string_constants";
-// import Card from 'react-bootstrap/Card';
-// import ListGroup from 'react-bootstrap/ListGroup';
-// import allepy from "../../assets/images/allepy.png";
-// import CardBody from "react-bootstrap/esm/CardBody";
-// import { alignPropType } from "react-bootstrap/esm/types";
 import StateCard from "./components/StateCard";
-import StaticData from "../../constants/static_data";
 import AppBar from "../homepage/components/appbar";
 import axios from "../../services/instance";
+import { useParams } from "react-router-dom";
 
 const StateTourism=()=>{
     const [data, setData] = useState([]);
+    const params = useParams();
     useEffect(()=>{ 
         axios.get('/getStateListings',{
             params:{
-                state:StringConstants.stateName,
+                state:params.state,
             }
         }).then((res)=>{setData(res.data.lists)})
-    },[]);
-
+    });
     return(
         <React.Fragment>
         <AppBar/>
@@ -35,13 +30,13 @@ const StateTourism=()=>{
                 
                 <div className='col-sm-12 col-lg-8 order-1'>
                     <div className="heading">
-                        <h3>{StringConstants.stateHeading}</h3>
+                        <h3>{params.state}</h3>
                     </div>
                     <div>
                         <p className="fs-5 mt-3"><b>Here are top 10 places to visit</b></p>
                     </div>
                 {
-                    data.map((val, index)=><StateCard title={val.title} img={val.img} description={val.description} stars={val.rating} besttime={val.besttime} tourist={val.tourist}/>)
+                    data.map((val, index)=><StateCard key={index} title={val.title} img={val.img} description={val.description} stars={val.rating} besttime={val.besttime} tourist={val.tourist}/>)
                 }
                 </div>
             </div>

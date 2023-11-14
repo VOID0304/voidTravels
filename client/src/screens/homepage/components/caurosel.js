@@ -29,11 +29,8 @@ const Caurosel = () => {
           </div>
         </div>
 
-        <div
-          className=" m-3 destination align-items-center d-flex flex-row "
-          style={{ justifyContent: "center" }}
-        >
-          <label for="box" className=" m-2 form-label">
+        <div className=" mx-auto my-4 destination align-items-center d-flex">
+          <label htmlFor="box" className=" m-2 form-label">
             Choose a destination :
           </label>
           <input
